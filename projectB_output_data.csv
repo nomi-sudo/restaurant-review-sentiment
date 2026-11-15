@@ -1,0 +1,21 @@
+review_text,rating,sentiment_score,sentiment_label,rating_label,mismatch
+"The food was absolutely amazing, best meal I've had all year!",5,0.8709,positive,positive,False
+"Terrible service, waited an hour and the food was cold.",1,-0.4767,negative,negative,False
+"It was okay, nothing special but not bad either.",3,0.5568,positive,neutral,True
+Loved the ambiance and the staff were super friendly.,5,0.9001,positive,positive,False
+Overpriced for what you get. Would not come back.,2,0.0,neutral,negative,True
+"Honestly disappointed, the reviews online were misleading.",1,-0.4215,negative,negative,False
+Great place! Fast service and tasty food.,4,0.6588,positive,positive,False
+"Not the worst but definitely not great either, mediocre experience.",3,0.066,neutral,neutral,False
+I was blown away by the quality and presentation.,5,0.0,neutral,positive,True
+Rude staff ruined what could have been a decent meal.,2,-0.7269,negative,negative,False
+"Average food, average service, nothing memorable.",3,0.0,neutral,neutral,False
+"Best restaurant in town, highly recommend to everyone!",5,0.8066,positive,positive,False
+Food was fine but I had to send it back once.,1,0.1027,neutral,negative,True
+"Pleasant surprise, exceeded my expectations completely.",5,0.6597,positive,positive,False
+Waited too long and the order was wrong when it arrived.,2,-0.4767,negative,negative,False
+"Solid food, friendly staff, will come back again.",4,0.5859,positive,positive,False
+"Nothing went wrong here, it was a fine experience overall.",1,0.5194,positive,negative,True
+"Absolutely wonderful evening, the chef outdid himself.",5,0.6115,positive,positive,False
+"Food poisoning symptoms the next day, never again.",1,-0.5859,negative,negative,False
+"Decent value for the price, satisfied with the visit.",4,0.6369,positive,positive,False
