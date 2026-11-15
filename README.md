@@ -32,6 +32,8 @@ All 5 flagged reviews:
 | 4★ | +0.627 |
 | 5★ | +0.641 |
 
+![Average sentiment by star rating](sentiment_by_rating.png)
+
 ## Honest notes
 - Sentiment rises with stars overall, but **2★ (−0.401) sits below 1★ (−0.172)** — with only 20 reviews, one strongly-worded review moves the average. On the full dataset this should smooth out.
 - Not every flag is a fake rating. *"I was blown away by the quality…"* (5★) scored 0.000 because VADER doesn't recognise that idiom as positive — some mismatches are the sentiment tool's limits, not the reviewer's.
