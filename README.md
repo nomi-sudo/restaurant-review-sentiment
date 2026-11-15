@@ -55,3 +55,12 @@ pip install pandas vaderSentiment
 python projectB_review_sentiment.py
 ```
 Prints the full scored table, the flagged mismatches, and average sentiment per star rating, and saves everything to `projectB_output_data.csv`.
+
+## Try it at the user end — Streamlit app
+`app.py` is the same logic as a user-facing checker: paste any review, pick the star rating it came with, press **Check this review**, and get the sentiment score, what the words say, what the stars say, and a MATCH / MISMATCH verdict instantly. It includes the built-in examples above (including the 1-star review that reads happy, and the 5-star "blown away" review the tool can't read).
+
+```bash
+pip install streamlit vaderSentiment
+streamlit run app.py
+```
+Verified end-to-end: the happy 1-star review scores +0.519 → MISMATCH; the honest 5-star review scores +0.871 → MATCH; empty input asks for a review instead of crashing.
